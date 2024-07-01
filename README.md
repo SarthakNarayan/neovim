@@ -8,10 +8,10 @@ Instructions for linux system
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 ```
 
-### Installing nvim
+### Installing required packages
 
 ```bash
-brew install nvim
+brew install nvim ripgrep
 ```
 
 ### Installing nerd fonts
@@ -21,3 +21,4 @@ brew install nvim
 - We are using lazy as our plugin manager, so whenever a new plugin is added to the `lua/sarthak/plugins` directory, it needs to be installed.
     - Lazy will only load the plugins that are important at startup. 
 - We can install plugins using `:Lazy` to show the Lazy UI and then press `I` to install the plugins.
+- To reload the configuration settings just quit and reopen nvim.
