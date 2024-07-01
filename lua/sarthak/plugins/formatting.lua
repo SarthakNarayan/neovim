@@ -4,6 +4,7 @@ return {
 	config = function()
 		local conform = require("conform")
 
+		-- List of formatters: https://github.com/stevearc/conform.nvim?tab=readme-ov-file#formatters
 		conform.setup({
 			formatters_by_ft = {
 				javascript = { "prettier" },
@@ -18,6 +19,7 @@ return {
 				markdown = { "prettier" },
 				lua = { "stylua" },
 				python = { "black" },
+				bash = { "shfmt" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
