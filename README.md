@@ -11,7 +11,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 ### Installing required packages
 
 ```bash
-brew install nvim ripgrep
+brew install nvim ripgrep node
 ```
 
 ### Installing nerd fonts

@@ -14,8 +14,12 @@ vim.opt.rtp:prepend(lazypath)
 
 -- setup contains the path that the lazy plugin manager will monitor when new plugins are added 
 -- In our case its the plugins folder
-require("lazy").setup("sarthak.plugins", {
+require("lazy").setup({ { import = "sarthak.plugins" }, { import = "sarthak.plugins.lsp" } }, {
+  checker = {
+    enabled = true,
+    notify = false,
+  },
   change_detection = {
     notify = false,
-  }
-}) 
+  },
+})
