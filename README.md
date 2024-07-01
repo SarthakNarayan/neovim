@@ -22,3 +22,6 @@ brew install nvim ripgrep
     - Lazy will only load the plugins that are important at startup. 
 - We can install plugins using `:Lazy` to show the Lazy UI and then press `I` to install the plugins.
 - To reload the configuration settings just quit and reopen nvim.
+
+## References
+- https://www.youtube.com/watch?v=6pAG3BHurdM
