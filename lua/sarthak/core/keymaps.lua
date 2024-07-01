@@ -1,3 +1,5 @@
+-- NOTE: All plugin related keymaps are present in the respective plugins file in the plugins directory
+
 -- ##########################################################################################
 -- Modes
 --   normal_mode = "n",
@@ -63,7 +65,7 @@ keymap("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" })
 keymap("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" })
 
 -- remove search highlight
-keymap("n", "<leader>nh", ":nohl<CR>", opts) -- remove search hightlight
+keymap("n", "<leader>nh", ":nohl<CR>", {desc = "Remove highlight search" }) -- remove search hightlight
 
 -- Copying to the system clipboard, one option is to set clipboard = unnamedplus
 -- But I don't want to litter my system clipboard with this so I have custom key mappings
@@ -71,7 +73,7 @@ keymap("n", "<leader>nh", ":nohl<CR>", opts) -- remove search hightlight
 -- https://www.reddit.com/r/neovim/comments/3fricd/easiest_way_to_copy_from_neovim_to_system/
 -- Also I use CMD + V to paste from clipboard, I am doing this since for some reason I cannot copy using CMD + C
 -- This is also shared with vim clipboard
-keymap("n", "<leader>y", '"+yy', opts)
+-- keymap("n", "<leader>y", '"+yy', opts)
 
 -- ##########################################################################################
 -- Insert Mode --
