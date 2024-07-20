@@ -3,7 +3,7 @@
 " set clipboard+=unnamedplus " use system clipboard as default register
 
 " set colorscheme
-set colorscheme gruvbox
+set colorscheme=gruvbox
 
 " more space in the neovim command line (at the bottom) for displaying messages. Default is 1
 " set cmdheight=2
@@ -20,9 +20,6 @@ set mouse=a
 
 " number of items to show in pop-up menu when you use tab
 set pumheight=10
-
-" we don't need to see things like -- INSERT -- anymore at the bottom of the screen
-set showmode=false
 
 " always show tabs
 set showtabline=2
