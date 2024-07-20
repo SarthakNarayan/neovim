@@ -34,6 +34,14 @@ return {
 						["G"] = actions.move_to_bottom,
 					},
 				},
+				file_ignore_patterns = {
+					"git",
+				},
+			},
+			pickers = {
+				find_files = {
+					hidden = true,
+				},
 			},
 		})
 

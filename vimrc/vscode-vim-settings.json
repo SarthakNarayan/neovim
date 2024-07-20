@@ -1,0 +1,6 @@
+{
+  "vim.leader": ",",
+  "vim.easymotion": true,
+  "vim.surround": true,
+  "vim.vimrc.enable": true,
+}
