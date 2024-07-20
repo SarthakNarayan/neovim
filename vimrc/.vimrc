@@ -2,6 +2,9 @@
 " clipboard
 " set clipboard+=unnamedplus " use system clipboard as default register
 
+" set colorscheme
+set colorscheme gruvbox
+
 " more space in the neovim command line (at the bottom) for displaying messages. Default is 1
 " set cmdheight=2
 
